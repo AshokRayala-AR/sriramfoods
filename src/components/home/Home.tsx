@@ -10,7 +10,7 @@ import Crousal from "./carousel/Crousal.tsx";
 
 export default function Home() {
   return (
-    <div>
+    <div className="mt-14">
       <Crousal />
       <ExperienceSairam />
       <div className={`p-5`}>

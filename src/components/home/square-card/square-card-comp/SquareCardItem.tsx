@@ -1,7 +1,7 @@
 import { useDispatch } from "react-redux";
 import { addItem } from "../../header/header-comp/cart/CartSlice";
-
-export default function SquareCardItem({ item }: any) {
+import { SqCardPropType } from "../../../../utils/types/Types";
+export default function SquareCardItem({ item }: SqCardPropType) {
   const dispatch = useDispatch();
   function handleAddCartItem() {
     dispatch(addItem(item));

@@ -19,8 +19,7 @@ export default function QuantitySelector({ item }: ArrowPropType) {
           item={item}
           quantity={quantity}
           setQuantity={setQuantity}
-        
-              />
+        />
       </span>
     </div>
   );
